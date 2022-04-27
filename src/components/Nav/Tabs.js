@@ -6,12 +6,12 @@ function Tabs() {
   // redux
   const dispatch = useDispatch();
   return (
-    <div className="flex-1 text-gray-500 font-semibold text-sm">
-      <span className="cursor-pointer px-5 mr-5">Home</span>
-      <span className="cursor-pointer px-5">Join</span>
+    <div className="flex-1 text-gray-500 dark:text-gray-400 font-semibold text-sm">
+      <span className="cursor-pointer px-5">Home</span>
+      <span className="cursor-pointer px-5 md:inline hidden">Join</span>
       <span
         onClick={() => dispatch(changeMode())}
-        className="cursor-pointer px-5"
+        className="cursor-pointer md:px-5"
       >
         dark mode btn
       </span>

@@ -22,3 +22,27 @@
     rgba(180, 180, 190, 0.3) 100%
   );
 }
+
+/* form inputes "general style" */
+.form__inputs {
+  @apply dark:bg-[#323644] bg-[#a3a3af] pl-5 pb-2 relative rounded-xl transition-colors;
+}
+.form__inputs span {
+  @apply dark:text-gray-400 text-gray-700 text-xs transition-colors;
+}
+.form__inputs input {
+  @apply outline-none border-b border-transparent dark:text-white font-semibold bg-transparent w-3/4 mt-1 block transition-all;
+}
+.form__inputs:hover,
+.form__inputs:hover input {
+  @apply dark:bg-[#3a3e4e] bg-[#9999a5];
+}
+.form__inputs input:focus {
+  @apply border-b-gray-500;
+}
+.active_input {
+  @apply bg-[#3a3e4e];
+}
+.active_input span {
+  @apply text-gray-100;
+}

@@ -3,17 +3,23 @@ import FirstName from "./FirstName";
 import LastName from "./LastName";
 import Email from "./Email";
 import Password from "./Password";
+// redux
+import { useDispatch } from "react-redux";
+import { signUp } from "../../app/features/user/userSlice";
 // form api
 import { useForm } from "react-hook-form";
 
 function Form() {
+  // redux
+  const dispatch = useDispatch();
+
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = (data) => dispatch(signUp(data));
 
   return (
     <div className="container mx-auto md:px-20 px-5">

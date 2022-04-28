@@ -7,7 +7,11 @@ function Tabs() {
   const dispatch = useDispatch();
   return (
     <div className="flex-1 text-gray-500 dark:text-gray-400 font-semibold text-sm">
-      <span className="cursor-pointer px-5">Home</span>
+      <span className="cursor-pointer px-5">
+        <a href="https://mehdi-zandian.vercel.app/" target="_blank">
+          About
+        </a>
+      </span>
       <span className="cursor-pointer px-5 md:inline hidden">Join</span>
       <span
         onClick={() => dispatch(changeMode())}

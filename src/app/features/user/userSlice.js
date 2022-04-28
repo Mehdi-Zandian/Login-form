@@ -14,6 +14,6 @@ export const userSlice = createSlice({
   },
 });
 
-export const {} = userSlice.actions;
+export const { signUp } = userSlice.actions;
 
 export default userSlice.reducer;

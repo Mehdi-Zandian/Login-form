@@ -13,7 +13,8 @@ function Header() {
         </h1>
         <span className="font-bold text-sm text-gray-700 dark:text-gray-300">
           <span>
-            Already a member? <span className="text-fblue-100"> Log In</span>
+            Already a member?{" "}
+            <span className="text-fblue-100 curse cursor-pointer"> Log In</span>
           </span>
         </span>
       </div>

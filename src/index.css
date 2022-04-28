@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  overflow: hidden;
+}
+
 .dark.bg-gradient {
   background: rgb(39, 42, 55);
   background: linear-gradient(
@@ -40,9 +44,6 @@
 .form__inputs input:focus {
   @apply border-b-gray-500;
 }
-.active_input {
-  @apply bg-[#3a3e4e];
-}
-.active_input span {
-  @apply text-gray-100;
+.input__active {
+  @apply outline outline-2 outline-fblue-100;
 }

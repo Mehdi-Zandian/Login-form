@@ -3,6 +3,7 @@ import Avatar from "../../assets/avatar.jpeg";
 import { useSelector } from "react-redux";
 
 function Picture() {
+  // redux
   const user = useSelector((state) => state.user.user);
 
   return (

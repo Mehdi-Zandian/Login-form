@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 function Status() {
+  // status IDs
   const [status, setStatus] = useState("st3");
 
   return (

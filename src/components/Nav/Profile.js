@@ -2,6 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 
 function Profile() {
+  // redux
   const user = useSelector((state) => state.user.user);
   return (
     <div className="my-3 flex items-center w-fit">

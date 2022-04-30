@@ -11,8 +11,7 @@ function App() {
     <div className="app min-h-full bg-center bg-cover bg-no-repeat bg-[url('./assets/mountain.jpg')] ">
       <div className={`${mode == true ? "dark" : "light"} bg-gradient h-full`}>
         <Nav />
-        {user.length == 0 ? <Form /> : <Welcome />}
-        {/* {!true ? <Form /> : <Welcome />} */}
+        {user.length === 0 ? <Form /> : <Welcome />}
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ function Picture() {
   const user = useSelector((state) => state.user.user);
 
   return (
-    <div className="bg-re-300 mt-12 h-fit flex flex-col">
+    <div className="mt-12 h-fit flex flex-col">
       <h1 className="text-center dark:text-gray-400 text-gray-600 text-2xl font-bold">
         Welcome to your Profile !
       </h1>

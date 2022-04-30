@@ -5,7 +5,7 @@ import Buttons from "./Buttons";
 
 function Welcome() {
   return (
-    <div className="container w-fit mx-auto h-full pb-20 flex flex-col items-center">
+    <div className="w-fit mx-auto h-fit flex flex-col items-center">
       <Picture />
       <Status />
       <Buttons />

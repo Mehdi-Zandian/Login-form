@@ -45,7 +45,7 @@ function Form() {
       <div className="mt-10">
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className="lg:w-6/12 pb-32 xl:w-4/12 w-full grid grid-cols-2 p-2"
+          className="lg:w-6/12 pb-10 xl:w-4/12 w-full grid grid-cols-2 p-2"
           autoComplete="off"
         >
           <FirstName register={register} errors={errors} />

@@ -5,7 +5,7 @@ function Status() {
   const [status, setStatus] = useState("st3");
 
   return (
-    <div className="mt-8">
+    <div className="mt-4 md:mt-8">
       <h3 className="font-semibold text-center mb-1 dark:text-gray-400 text-gray-600">
         My Status
       </h3>

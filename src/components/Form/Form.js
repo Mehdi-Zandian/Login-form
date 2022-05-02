@@ -39,7 +39,7 @@ function Form() {
   }, [editUser]);
 
   return (
-    <div className="container mx-auto md:px-20 px-5">
+    <div className="container mt-12 md:mt-24 mx-auto md:px-20 px-5">
       <Header />
 
       <div className="mt-10">

@@ -3,7 +3,7 @@ import React from "react";
 function Header() {
   return (
     <div>
-      <div className="pt-24 text-center md:text-left">
+      <div className="text-center md:text-left">
         <span className="font-bold text-sm text-gray-600 dark:text-gray-400">
           START FOR FREE
         </span>

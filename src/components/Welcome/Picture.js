@@ -7,11 +7,11 @@ function Picture() {
   const user = useSelector((state) => state.user.user);
 
   return (
-    <div className="mt-12 h-fit flex flex-col">
+    <div className="md:mt-12 mt-5 h-fit flex flex-col">
       <h1 className="text-center dark:text-gray-400 text-gray-600 text-2xl font-bold">
         Welcome to your Profile !
       </h1>
-      <div className="mt-16 flex flex-col md:flex-row items-center">
+      <div className="md:mt-16 mt-7 flex flex-col md:flex-row items-center">
         <img
           className="w-40 md:w-48 mb-6 md:mb-0 md:mr-10 rounded-full shadow-lg"
           src={Avatar}
